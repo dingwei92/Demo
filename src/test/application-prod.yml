@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+
+myenvironment:
+  name: 生产环境
+
+myprop:
+  name: 丁玮
+  age: 28
+  address[0]: 1
+  address[1]: 2
+  address[2]: 1
+
+spring:
+  data:
+    mongodb:
+      database: data
+      host: 127.0.0.1
+      port: 27017
