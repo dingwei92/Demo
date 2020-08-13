@@ -36,7 +36,7 @@ public class MongodbTest {
     @Test
     public void testRemove1() {
         MongodbTestModel mo = new MongodbTestModel();
-        mo.setMid("5eb1091b-b2a8-4a92-b1a3-4d515e837823");
+        mo.setMid("5eb1091b-b2a8-4a92-b1a3-4d515e837823  ");
         mo.setName("MongodbTestModel");
         mo.setAge("22");
         MongodbUtils.remove(mo);
